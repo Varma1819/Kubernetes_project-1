@@ -1,0 +1,37 @@
+Basic description of each key terminology used in this project:
+
+1. Docker 🐳
+Docker is a containerization platform that allows applications to run in isolated environments (containers). It ensures that apps run the same way across different systems.
+
+2. Kubernetes (K8s) ☸️
+Kubernetes is an orchestration tool used to manage containerized applications across multiple nodes. It automates deployment, scaling, and management of containers.
+
+3. Minikube
+Minikube is a lightweight Kubernetes environment that allows you to run Kubernetes locally on your machine. It creates a single-node cluster for testing and learning.
+
+4. kubectl
+kubectl is the Kubernetes command-line tool used to interact with the cluster. It helps in creating, managing, and debugging Kubernetes resources.
+
+5. Deployment
+A Deployment in Kubernetes defines how an application should run. It ensures that the required number of application instances (pods) are running and can be updated or rolled back.
+
+6. Pod
+A Pod is the smallest unit in Kubernetes, containing one or more containers. It runs on a Kubernetes node and shares storage/network resources.
+
+7. Node
+A Node is a worker machine in Kubernetes where containers run. It can be a physical or virtual machine.
+
+8. Service
+A Service in Kubernetes provides a stable IP address and network access to pods. Even if pods restart, the service keeps the connection intact.
+
+9. Port Forwarding
+Port forwarding allows you to access applications inside the cluster from your local machine. Example: Forwarding port 8080 lets you access an app via http://localhost:8080.
+
+10. Rollback
+Rollback in Kubernetes allows you to revert to a previous stable deployment if something goes wrong with an update.
+
+11. Self-Healing
+Kubernetes automatically restarts failed pods and ensures the application is always running, making it a self-healing system.
+
+12. YAML (Yet Another Markup Language)
+YAML is a human-readable format used for defining Kubernetes configurations, such as Deployments and Services.
